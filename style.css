@@ -71,17 +71,61 @@ margin-bottom: 50px;
 }
 
 .About{
-  display: flex;
-  justify-content: center ;
+ text-align: center;
+ margin-top: 30px;
 }
 .About span {
   background-color: gray;
   border-radius: 16px;
   Padding: 5px;
+ 
 }
 
 .About p{
-margin-bottom: 16px;
+margin-top: 16px;
+font-size: 16px;
+}
 
+hr{
+ background:repeating-linear-gradient(45deg, transparent, transparent 10px, #99ffff 10px, #99cc99 20px), linear-gradient(to bottom, #cccccc, #999999); color:transparent;
+height:5px; border:0;
+margin: 16px 0;
 
+}
+
+.habilities {
+text-align: center;
+
+}
+
+.habilities span{
+background-color: gray;
+border-radius: 16px;
+padding: 5px;
+}
+
+.habilities p {
+  margin-top: 16px;
+  font-size: 16px;
+
+}
+
+.Projects {
+text-align: center;
+}
+
+.Projects span{
+background-color: gray;
+border-radius: 16px;
+padding: 5px;
+}
+
+.Projects p{
+margin-top: 16px;
+font-size: 16px;
+}
+
+.welcome{
+text-align: right;
+padding-right: 180px;
 }
