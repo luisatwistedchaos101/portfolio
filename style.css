@@ -6,6 +6,7 @@ seletor {
 }
 */
 
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #fdffdab9;
+  border: dotted #
 }
 
 header {
@@ -57,7 +59,10 @@ main {
   box-shadow: 4px 8px 12px #6b7280;
 }
 .sonic {
-  border: 16px dashed #95b8f6
+  border-top: 16px dashed #95b8f6;
+  border-bottom: 16px solid #95b8f6;
+  border-left: 16px double #95b8f6;
+  border-right: 16px double #95b8f6;
 }
 
 .texto h1{
